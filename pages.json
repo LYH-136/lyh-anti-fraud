@@ -1,0 +1,102 @@
+{
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录 · 银铃守护"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "银铃守护 · 老年人反诈学堂"
+			}
+		},
+		{
+			"path": "pages/learn/learn",
+			"style": {
+				"navigationBarTitleText": "反诈学习中心"
+			}
+		},
+		{
+			"path": "pages/learn/detail",
+			"style": {
+				"navigationBarTitleText": "视频学习"
+			}
+		},
+		{
+			"path": "pages/aicheck/aicheck",
+			"style": {
+				"navigationBarTitleText": "AI 辨伪实验室"
+			}
+		},
+		{
+			"path": "pages/quiz/quiz",
+			"style": {
+				"navigationBarTitleText": "反诈答题"
+			}
+		},
+		{
+			"path": "pages/quiz/cert",
+			"style": {
+				"navigationBarTitleText": "电子证书"
+			}
+		},
+		{
+			"path": "pages/family/family",
+			"style": {
+				"navigationBarTitleText": "家校联合"
+			}
+		},
+		{
+			"path": "pages/teacher/teacher",
+			"style": {
+				"navigationBarTitleText": "教师工作台"
+			}
+		},
+		{
+			"path": "pages/report/report",
+			"style": {
+				"navigationBarTitleText": "一键报警"
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "判例与新闻"
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/admin/admin",
+			"style": {
+				"navigationBarTitleText": "管理后台"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "银铃守护",
+		"navigationBarBackgroundColor": "#FBF4EC",
+		"backgroundColor": "#FBF4EC"
+	},
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^yl-(.*)": "@/components/yl-$1/yl-$1.vue"
+		}
+	},
+	"h5": {
+		"title": "银铃守护 · 老年人反诈学堂",
+		"router": {
+			"mode": "hash",
+			"base": "./"
+		}
+	}
+}
